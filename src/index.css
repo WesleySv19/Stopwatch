@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #9370DB !important;
+}
+
+.light-theme {
+  background-color: #F5F5F5;
+  color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-theme {
+  background-color: #171515;
+  color: #F5F5F5;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

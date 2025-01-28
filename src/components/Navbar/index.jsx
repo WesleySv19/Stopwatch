@@ -1,6 +1,5 @@
 import styles from './Navbar.module.css'
 import { useTheme } from "../../context/ThemeModeContext"
-import PositionModal from "../Modal"
 
 const Navbar = () => {
 
@@ -9,7 +8,6 @@ const Navbar = () => {
   return (
     <header>
       <nav className={styles.navbar}>
-        <PositionModal />
         <h1>Cronômetro</h1>
         <div className="form-check form-switch">
           <input

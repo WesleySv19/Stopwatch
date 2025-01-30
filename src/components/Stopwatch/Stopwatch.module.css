@@ -1,0 +1,19 @@
+.stopwatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.timer span {
+    font-size: 5rem;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    gap: 30px;
+}
